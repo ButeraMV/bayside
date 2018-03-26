@@ -1,0 +1,95 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+body {
+  background-image: url("beachglass.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+}
+
+header {
+  text-align: center;
+}
+
+.main {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.nav-button {
+  color: white;
+  background-color: black;
+  width: 25%;
+  margin-bottom: 20px;
+  padding-left: 20px;
+  line-height: 2.2em;
+  border: 2px solid gold;
+  font-size: 24px;
+}
+
+/* .slogan {
+  color: white;
+  background-color: black;
+  text-align: center;
+  width: 20%;
+  line-height: .2em;
+  font-size: 24px;
+  border: 2px solid gold;
+  margin: 222px auto 0 auto;
+} */
+
+footer {
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  background-color: black;
+  margin-top: 80px;
+  height: 40%;
+  padding-top: 30px;
+}
+
+.social-media {
+  font-size: 2em;
+}
+
+.slogan {
+  width: 20%;
+  margin: 5% auto 0 auto;
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-size: 22px;
+  border: 2px solid gold;
+  line-height: .4em;
+}
+
+.site-map {
+  padding: 40px 0 0 0;
+}
+
+.site-map > p {
+  padding: 0 5px 0 5px;
+  display: inline-block;
+  font-size: 12px;
+}
+
+.copyright {
+  padding: 30px 0 0 0;
+}
