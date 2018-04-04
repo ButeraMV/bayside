@@ -1,0 +1,47 @@
+// Place all the styles related to the brand controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.brand-body {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  width: 80%;
+  margin: 1em auto;
+  border: 2px solid gold;
+  display: block;
+  text-align: center;
+  line-height: 1.3em;
+}
+
+.article-1 {
+  width: 50%;
+  float: left;
+  margin: 1em;
+
+}
+
+.video {
+  margin: 1em 1em 0 0;
+  padding: 0;
+  border: none;
+  width: 336px;
+  height: 189px;
+}
+
+.article-2 {
+  width: 50%;
+  float: right;
+  margin: 1em;
+  line-height: 1.3em;
+}
+
+.aside {
+  width: 50%;
+  float: left;
+  margin: 2em;
+}
+
+.cigar {
+  margin: 0 0 1em 1em;
+}

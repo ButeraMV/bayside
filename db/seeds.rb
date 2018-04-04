@@ -1,7 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
+Beer.create(name: "Bayside Ale", desc: "The Bayside Ale is the perfectly balanced beer. It is a new and unique style of beer, which we call a Sweet IPA. This beer has a vibrant copper color, with a smooth, sweet body, and a light citrus finish. The Bayside Ale’s universal refreshing flavor & smoothness makes for the most enjoyable drinking experience.", flagship: true, img_path: 'bayside-ale.jpg')
+Beer.create(name: "Long Island Tea Ale", desc: "Our famous Long Island Tea Ale or “ LITA,” has been known to inspire people to think about refreshing summer days. The LITA, just like the lighthouse, must shine in the dark of winter for the goodness of mankind. Drop in a piece of lemon, and shine the LITA.", img_path: 'lita.jpg')
+Beer.create(name: "Cross Island IPA", desc: "Our Cross Island IPA is the perfect beer for Summer. Golden wheat allows for the Cross Island IPA to take the next step to develop a more full flavour profile. The way we hop this IPA leaves tones of orange without losing the perfect balance between tart and sweet that our beer drinkers enjoy.", img_path: 'xipa.png')

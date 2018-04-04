@@ -1,0 +1,2 @@
+class Beerfact < ApplicationRecord
+end

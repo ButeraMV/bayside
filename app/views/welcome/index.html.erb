@@ -1,6 +1,10 @@
 <div class="main">
-  <div class="nav-button">Our Brand</div>
-  <div class="nav-button">Our Beer</div>
+  <div class="nav-button">
+    <%= link_to 'Our Brand', brand_path %>
+  </div>
+  <div class="nav-button">
+    <%= link_to 'Our Beer', beers_path %>
+  </div>
   <div class="nav-button">Beer Facts</div>
   <div class="nav-button">Events</div>
   <div class="nav-button">Contact</div>
@@ -9,3 +13,33 @@
 <div class="slogan">
   <p>I'll Drink To That &reg;</p>
 </div>
+
+<footer class="home-footer">
+  <div class="social-media">
+    <i class="fab fa-facebook-f"></i>
+    <i class="fab fa-instagram"></i>
+    <i class="fab fa-twitter"></i>
+    <i class="fab fa-youtube"></i>
+  </div>
+
+  <div class="site-map">
+    <p>Home</p>
+    <p>Our Brand</p>
+    <p>Our Beer</p>
+    <p>Beer Facts</p>
+    <p>Events</p>
+    <p>Contact</p>
+    <p>Events</p>
+    <p>Shop</p>
+    <p>Privacy Policy</p>
+    <p>Returns and Refunds Policy</p>
+    <p>Terms and Conditions</p>
+    <p>Shipping and Delivery Policy</p>
+  </div>
+
+  <div class="copyright">
+    <p>
+      &copy; 2018 Bayside Brewery - All rights reserved.
+    </p>
+  </div>
+</footer>

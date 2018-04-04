@@ -1,0 +1,20 @@
+require 'rails_helper'
+
+RSpec.describe "beers/show", type: :view do
+  before(:each) do
+    @beer = assign(:beer, Beer.create!(
+      :name => "Name",
+      :desc => "MyText",
+      :flagship => false,
+      :img_path => "Img Path"
+    ))
+  end
+
+  it "renders attributes in <p>" do
+    render
+    expect(rendered).to match(/Name/)
+    expect(rendered).to match(/MyText/)
+    expect(rendered).to match(/false/)
+    expect(rendered).to match(/Img Path/)
+  end
+end

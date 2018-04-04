@@ -11,39 +11,10 @@
 
   <body>
     <header>
-      <%= image_tag('bayside-brewery-logo.png') %>
+      <%= link_to(image_tag('bayside-brewery-logo.png'), root_path) %>
     </header>
 
     <%= yield %>
 
-    <footer>
-      <div class="social-media">
-        <i class="fab fa-facebook-f"></i>
-        <i class="fab fa-instagram"></i>
-        <i class="fab fa-twitter"></i>
-        <i class="fab fa-youtube"></i>
-      </div>
-
-      <div class="site-map">
-        <p>Home</p>
-        <p>Our Brand</p>
-        <p>Our Beer</p>
-        <p>Beer Facts</p>
-        <p>Events</p>
-        <p>Contact</p>
-        <p>Events</p>
-        <p>Shop</p>
-        <p>Privacy Policy</p>
-        <p>Returns and Refunds Policy</p>
-        <p>Terms and Conditions</p>
-        <p>Shipping and Delivery Policy</p>
-      </div>
-
-      <div class="copyright">
-        <p>
-          &copy; 2018 Bayside Brewery - All rights reserved.
-        </p>
-      </div>
-    </footer>
   </body>
 </html>

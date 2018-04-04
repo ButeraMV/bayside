@@ -1,0 +1,22 @@
+<%= form_with(model: beerfact, local: true) do |form| %>
+  <% if beerfact.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(beerfact.errors.count, "error") %> prohibited this beerfact from being saved:</h2>
+
+      <ul>
+      <% beerfact.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= form.label :fact %>
+    <%= form.text_area :fact, id: :beerfact_fact %>
+  </div>
+
+  <div class="actions">
+    <%= form.submit %>
+  </div>
+<% end %>
