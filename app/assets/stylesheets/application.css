@@ -108,7 +108,7 @@ header {
 }
 
 .home-footer {
-  position: absolute;
+  /* position: absolute; */
   top: 100%;
   width: 100%;
   text-align: center;
@@ -158,5 +158,33 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  .main {
+    width: 80%;
+  }
 
+  .nav-button {
+    font-size: 1.2em;
+    width: 40%;
+  }
+
+  .nav-button > a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    text-align: left;
+  }
+
+  .slogan {
+    font-size: 1em;
+    width: 50%;
+  }
+
+  .home-footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+    height: 40%;
+    padding-top: 30px;
+  }
 }
