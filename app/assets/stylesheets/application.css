@@ -75,7 +75,7 @@ header {
   width: 10vw;
   line-height: 2em;
   border: 2px solid gold;
-  font-size: 1.8vw;
+  font-size: 2vw;
   display: inline-block;
   padding: 0 .5vw 0 .5vw;
 }
@@ -106,8 +106,6 @@ header {
 .active > a {
   color: black;
 }
-
-
 
 .home-footer {
   position: absolute;
@@ -140,7 +138,7 @@ footer {
   background-color: black;
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 1.8vw;
   border: 2px solid gold;
   line-height: .4em;
 }
@@ -157,4 +155,8 @@ footer {
 
 .copyright {
   padding: 30px 0 0 0;
+}
+
+@media screen and (max-width: 900px) {
+
 }
