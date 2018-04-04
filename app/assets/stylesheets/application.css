@@ -145,6 +145,8 @@ footer {
 
 .site-map {
   padding: 40px 0 0 0;
+  width: 80%;
+  margin: 0 auto;
 }
 
 .site-map > p {
@@ -158,6 +160,70 @@ footer {
 }
 
 @media screen and (max-width: 900px) {
+  /* Welcome Page */
+  .main {
+    width: 80%;
+  }
+
+  .nav-button {
+    font-size: 1.2em;
+    width: 25%;
+  }
+
+  .nav-button > a {
+    text-decoration: none;
+    color: white;
+    height: 100%;
+    text-align: left;
+  }
+
+  .slogan {
+    font-size: 1em;
+    width: 50%;
+  }
+
+  .home-footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    margin-top: 80px;
+    height: 40%;
+    padding-top: 30px;
+  }
+  /* End Welcome Page */
+  /* Brand Page */
+
+  .article-1 {
+    width: 75%;
+    font-size: 2vw;
+    float: none;
+    display: block;
+    margin: 2em auto 1em auto;
+  }
+
+  .video {
+    width: 448px;
+    height: 252px;
+    display: block;
+    margin: 1em auto 1em auto;
+  }
+
+  .article-2 {
+    width: 75%;
+    display: block;
+    font-size: 2vw;
+    float: none;
+    margin: 1em auto 1em auto;
+  }
+
+  .cigar {
+    margin: 1em auto 2em auto;
+  }
+  /* End Brand Page */
+}
+
+@media screen and (max-width: 500px) {
+  /* Welcome Page */
   .main {
     width: 80%;
   }
@@ -187,4 +253,42 @@ footer {
     height: 40%;
     padding-top: 30px;
   }
+  /* End Welcome Page */
+  /* Brand Page */
+  .nav-button-h {
+    font-size: .8em;
+    width: 25%;
+    margin-top: .5em;
+  }
+
+  .article-1 {
+    width: 75%;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    float: none;
+    display: block;
+    margin: 2em auto 1em auto;
+  }
+
+  .video {
+    width: 224px;
+    height: 126px;
+    display: block;
+    margin: 1em auto 1em auto;
+  }
+
+  .article-2 {
+    width: 75%;
+    display: block;
+    font-size: 2.5em;
+    line-height: 1.2em;
+    float: none;
+    margin: 1em auto 1em auto;
+  }
+
+  .cigar {
+    margin: 1em auto 2em auto;
+  }
+  /* End Brand Page */
 }
+
